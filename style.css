@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffeeee;
+}
+
+header {
+    background-color: #df0000;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+#home {
+    background-color: #ffeeee;
+    padding-top: 3rem;
+}
+
+.featured-vehicles, .vehicle-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.vehicle {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: calc(33% - 2rem);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vehicle img {
+    max-width: 70%;
+    height: auto;
+    margin:12px;
+	-moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+.vehicle img:hover{
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+ }
+
+ 
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #cd0000;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
